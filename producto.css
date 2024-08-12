@@ -1,0 +1,102 @@
+.cad-limit {
+    height: 500px;
+    overflow: hidden;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;    
+}
+
+.princi {
+    font-size: 50px;
+    background-color: rgb(233, 202, 245) ;
+    margin: 20px 80px;
+    padding: 5px 10px;
+   opacity: 70%;
+   border-radius: 20%;
+}
+
+.btn-prin {
+    background-color: rgb(194, 191, 247);
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(233, 202, 245);
+    font-size: 20px;
+    transition: 5s;
+}
+
+.btn-prin :hover {
+    color: #fff;
+    
+}
+
+a {
+    text-decoration: none;
+ }
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+    font-family: Amatic SC;
+    font-size: 180%;
+    font-weight: bold;
+    
+}
+
+header ul li {
+    margin: 10px;
+
+}
+
+body { background-image: url(images/fondopag.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenido{
+    width: 100%;
+    height: 100%;
+    padding: 15px 30%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.C_tarje{
+    width: 25%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-size:contain;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+    transition: all 400ms ease-out;
+    cursor: default;
+    margin: 20px;
+}
+
+figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;   
+    
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.padre2 {
+    display: flex;
+    flex-direction: row;
+    
+}

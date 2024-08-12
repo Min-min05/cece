@@ -1,0 +1,71 @@
+.cad-limit {
+    height: 500px;
+    overflow: hidden;
+}
+header {
+    display: flex;
+    flex-direction: row;
+      justify-content: space-between;
+    width: 100%;
+    display: flex;    
+}
+
+.princi {
+    font-size: 35PX;
+    background-color: rgb(233, 202, 245) ;
+    margin: auto;
+    padding: 5PX 10PX;
+   opacity: 70%;
+   border-radius: 20%;
+}
+
+.btn-prin {
+    background-color: rgb(194, 191, 247);
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(233, 202, 245);
+    font-size: 20px;
+    transition: 5s;
+}
+
+.btn-prin :hover {
+    color: #fff;
+    
+}
+
+a {
+    text-decoration: none;
+ }
+
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+    font-family: Amatic SC;
+    font-size: 180%;
+    font-weight: bold;
+    
+}
+
+header ul li {
+    margin: 15px;
+
+}
+
+body { background-image: url(images/fondopag.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    background-color: rgb(235, 213, 237);
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px  
+          
+}
+
+
